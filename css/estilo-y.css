@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+  font-family: miPrimeraFuente;
+  src: url(fuentes/Good-Times-Rg.otf);
+}
+
+body a{font-family: Roboto;}
+header,
+main{background:#FFF;}
+section{background: #ebebeb;}
+aside{background: #3777ac;}
+footer{background: #3777ac;}
+
+section{color:#3777ac;}
+
+.fecha {color:#ffd145; font-size:17px;}
+
+section p::first-line {background: #000; color:#fff;}
+
+.fecha::before {content: url(../imagenes/alarm.png)}
+
+iframe {width:100%;}
+
+
+h1, h2, h3, h4, h5, nav a, div.pie li a{
+  font-family: miPrimeraFuente;
+}
+
+body p{font-family: "Raleway", sans-serif;}
+
+
+
+
+.card{
+background:rgba(0,0,0,0.1);
+color:#000;
+}
+
+.card:hover{background:#ffd145;}
+
+.card-title{color:#ff0000;}
+
+footer ul.nav a {color:#ffd145;}
+
+.widget{background:rgba(0,0,0, 0.4);}
+
+
+.widget input, .widget textarea{background:#ffd145;}
+
+
+@media screen and (min-width: 571px) {
+
+nav a.nav-link {
+    color: #fff;
+    font-size:10px;    
+    background: #396f9f;
+    text-decoration: none;
+ }
+}
+
+
+button.navbar-toggler {background:#396f9f;}
